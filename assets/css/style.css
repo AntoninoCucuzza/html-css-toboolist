@@ -1,5 +1,75 @@
+/* Common */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: var(--bool-background);
 }
+
+:root {
+    --bool-lightgray: #d1d6da ;
+    --bool-white: #ffffff;
+    --bool-dark: #010001;
+    --bool-background: #f6f8f9;
+    --bool-button: #47adf1;
+    --bool-editorial: #45abe9;
+    --bool-Q1-Goals: #9c72e4;
+    --bool-recruiting: #64c0a9 ;
+    --bool-mobile: #f29e33 ;
+    --bool-website: #d863a0 ;
+    --bool-sales: #b0c926 ;
+}
+
+
+h1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#main_header{
+    height: 50px;
+    width: 750px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: var(--bool-white);
+    margin: 50px 160px;
+}
+
+#cemtral_main{
+  background-color: #64c0a9;
+  margin: 50px 160px;
+  height: 750px;
+  width: 750px;
+    
+}
+
+#button1{
+    background-color: var(--bool-button);
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+    color: var(--bool-white); 
+    border: 0px;
+    margin-left: 60px;
+}
+
+#button2{
+    background-color: var(--bool-white);
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--bool-lightgray);
+    border-radius: 10%;
+
+
+}
+
+section{
+   
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
