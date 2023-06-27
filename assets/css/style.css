@@ -104,6 +104,28 @@ h1{
     height: 30px ;
 }
 
+.Sales{
+    border: 0 solid var(--bool-sales);
+    background-color: var(--bool-sales);
+    color: var(--bool-white);
+    padding: 5px 10px;
+    border-radius: 40%;
+    width: 70px ;
+    height: 30px ;
+}
+
+
+.Website{
+    border: 0 solid var(--bool-website);
+    background-color: var(--bool-website);
+    color: var(--bool-white);
+    padding: 5px 10px;
+    border-radius: 40%;
+    width: 70px ;
+    height: 30px ;
+}
+
+
 section{
    
     border: solid 1px black;
