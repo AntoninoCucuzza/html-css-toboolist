@@ -134,27 +134,27 @@ section{
 }
 
 
-.ok_mark{
-    display: inline-block;
-    width: 18px;
-    height:18px;
-    border: 2px solid green;
-    border-radius: 50%;
+.ok{
+    border: 3px solid green; 
     color: green;
-    background-color: var(--bool-white);
+
    
 }
 
-.cross_mark{
-    display: inline-block;
-    width: 18px;
-    height:18px;
+.cross{
     border: 2px solid red;
-    border-radius: 50%;
-    color: red;
-    background-color: var(--bool-white);
-   
+    color: red; 
 
+}
+
+.mark{
+    display: inline-block;
+    width: 28px;
+    height:28px;
+    border-radius: 50%;
+    background-color: var(--bool-white);
+    line-height: 25px ;
+    text-align: center;
 }
 
 
