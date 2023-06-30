@@ -50,7 +50,7 @@ section{
 /* #region main */
 #button_section{
     width: 80%;
-    margin-left: 160px;
+    margin-left: 250px;
 
 }
 
@@ -63,8 +63,7 @@ section{
 
 #cemtral_main{
   background-color: #64c0a9;
-  margin: 5px 160px;
-  height: 500px;
+  margin: 5px auto;
   width: 80%;
   background-color: var(--bool-white);
 }
